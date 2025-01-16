@@ -1,0 +1,239 @@
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nav-item a {
+  color: #91b377;
+  font-size: 1.1rem;
+}
+#nav-toggle {
+  border: none;
+}
+.nav-item a:hover {
+  color: #e1dad0;
+}
+#nav-toggle:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+.nav-link {
+  position: relative;
+}
+.nav-link:hover,
+.nav-link.active::before {
+  color: #e1dad0;
+}
+@media (min-width: 991px) {
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(6%);
+    width: 0;
+    height: 2px;
+    background-color: #e1dad0;
+    visibility: hidden;
+    transition: all ease-in-out 0.3s;
+    border-radius: 3px;
+  }
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 90%;
+    visibility: visible;
+  }
+}
+.navbar a img {
+  width: 3rem;
+}
+#navSearch {
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 3px 12px;
+  border: none;
+  background-color: #e1dad0;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.81);
+}
+#containerFluid {
+  margin: 0px 100px;
+}
+
+.h5 {
+  color: #201c11;
+  transition: 0.3s ease-in;
+}
+.h5:hover {
+  color: #e1dad0;
+  transition: 0.3s ease-out;
+}
+#footer-link-sec {
+  display: flex;
+  flex-direction: column;
+}
+#footer-last-link {
+  display: flex;
+  flex-direction: column;
+}
+ul li a {
+  color: #201c11;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: #e1dad0;
+  transition: 0.4s all ease-in-out;
+}
+/* Media query */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #containerFluid {
+    margin: 0px;
+  }
+  .contact-us {
+    font-size: 2rem;
+    margin-top: 4rem;
+  }
+  .p {
+    font-size: 1rem;
+  }
+  .content-intro {
+    width: auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #footer-last-link {
+    display: none;
+  }
+  #footer-link-sec {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  #footer-link-sec {
+    display: block;
+  }
+}
+
+#first-name {
+  background-color: transparent;
+  border: grey 1px solid;
+}
+#last-name {
+  background-color: transparent;
+  border: grey 1px solid;
+}
+#email {
+  background-color: transparent;
+  border: grey 1px solid;
+}
+#phonenumber {
+  background-color: transparent;
+  border: grey 1px solid;
+}
+form input {
+  background-color: transparent;
+}
+.send-button {
+  background-color: #5e883e;
+  color: #e1dad0;
+  transition: 0.4s all ease;
+}
+.send-button:hover {
+  background-color: #201c11;
+  transition: 0.4s all ease-in-out;
+  color: #e1dad0;
+}
+.form-label {
+  color: #201c11;
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-style: italic;
+}
+
+.company-details {
+  color: #828787;
+  text-align: left;
+  font-family: poppins, sans-serif;
+  font-size: 16px;
+}
+.social-link {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.social-link a :hover {
+  color: #5e883e;
+}
+.btn-contact {
+  background-color: #5e883e;
+  color: #e1dad0;
+  text-decoration: none;
+  transition: 0.4s all ease-out;
+}
+.btn-contact:hover {
+  background-color: #201c11;
+  text-decoration: none;
+  transition: 0.4s all ease-out;
+}
+
+.map-responsive {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 100%;
+  position: absolute;
+}
+
+#navSearch {
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 3px 12px;
+  border: none;
+  background-color: #e1dad0;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(6px);
+  transform: translateY(-50%);
+  transition: all 2s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28225,218,208, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important ;
+}
+
+.hidden-2 {
+  opacity: 0;
+  filter: blur(6px);
+  transform: translateY(-50%);
+  transition: all 2s;
+}
+
+.show-2 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}

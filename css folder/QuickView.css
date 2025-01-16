@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+#quicImg {
+  height: auto;
+  width: 100%;
+  position: relative;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+}
+#quicImg:hover {
+  transform: scale(1.1);
+  transition: 0.4s all ease-in;
+  cursor: pointer;
+}
+/* Add some basic styling to our elements */
+.cart {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cart-quantity {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #5e883e;
+  color: #e1dad0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.btn:hover {
+  background-color: #201c11;
+  color: #e1dad0;
+}
+#increase-btn {
+  color: #e1dad0;
+}
+#decrease-btn {
+  color: #e1dad0;
+}
+.cart-total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.list-products {
+  list-style: none;
+  /* justify-content: space-evenly; */
+  margin: 0px auto;
+}
+.list-products li {
+  width: 22%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.25s all linear;
+  margin: 0px 10px;
+}
+.product-img {
+  width: 100%;
+}
+.product-img.active {
+  border: 1px solid #5e883e;
+  padding: 0.25rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 320px) and (max-width: 614px) {
+  .list-products {
+    justify-content: space-evenly;
+    display: flex;
+  }
+  .col {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pricing-names {
+    padding: 15px;
+  }
+  .product-info {
+    padding: 0px 15px;
+  }
+  .add-cart {
+    padding: 0px 15px;
+  }
+}
+.back {
+  display: none;
+}
+.col {
+  opacity: 0;
+  transition: 2.5s;
+  transform: translateX(-300px);
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  .navbar {
+    display: none;
+  }
+  .back {
+    display: block;
+  }
+}
+.navInput {
+  width: 8rem;
+  border-radius: 0.5rem;
+  padding: 3px 12px;
+  border: none;
+  background-color: #e1dad0;
+}
+::placeholder {
+  color: #201c11;
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.81);
+}
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+.nav-link {
+  color: #91b377;
+  position: relative;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #e1dad0;
+}
+@media (min-width: 991px) {
+  .nav-link::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background-color: #e1dad0;
+    visibility: hidden;
+    transition: 0.3s ease-in;
+  }
+  .nav-link:hover::before,
+  .nav-link.active::before {
+    width: 100%;
+    transition: 0.3s ease-out;
+    visibility: visible;
+    color: #201c11;
+  }
+}
+
+#img-container {
+  width: 410px;
+  padding: 10px;
+}
+.list-products li {
+  width: 20%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.25s all linear;
+  list-style: none;
+  margin: 0px 10px;
+}
+.product-img {
+  width: 100%;
+}
+#quicImg {
+  position: relative;
+  width: 100%;
+  transition: 0.2s all ease-in;
+}
+#quicImg:hover {
+  transform: scale(1.1);
+  transition: 0.4s all ease-in;
+  cursor: pointer;
+}
+.cart {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cart-quantity {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.btn {
+  background-color: #5e883e;
+  color: #e1dad0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all ease-in-out;
+}
+.btn:hover {
+  background-color: #201c11;
+  color: #e1dad0;
+}
+#increase-btn {
+  color: #e1dad0;
+}
+#decrease-btn {
+  color: #e1dad0;
+}
+.cart-total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.container-fluid {
+  margin: 0px 100px;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .container-fluid {
+    margin: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+  .row {
+    gap: 2rem;
+    /* display: flex;  */
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  #img-container {
+    width: 350px;
+    padding: 8px;
+    margin-top: 8px;
+  }
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28225,218,208, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important ;
+}
