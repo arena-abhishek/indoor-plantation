@@ -76,7 +76,7 @@ let mainImg1 = document.getElementById("quicImg");
 function changeImg1() {
   quicImg1.addEventListener(
     "click",
-    mainImg1.setAttribute("src", `assets/products img/product1newclose.jpg`)
+    mainImg1.setAttribute("src", `assets/products img/product1newclose.webp`)
   );
 }
 function changeImg2() {
@@ -85,7 +85,7 @@ function changeImg2() {
     mainImg1.setAttribute(
       "src",
       `
-            assets/products img/product1 new.jpg`
+            assets/products img/product1 new.webp`
     )
   );
 }
@@ -95,7 +95,7 @@ function changeImg3() {
     mainImg1.setAttribute(
       "src",
       `
-            assets/products img/product1front.jpg`
+            assets/products img/product1front.webp`
     )
   );
 }
@@ -106,7 +106,7 @@ let mainImg2 = document.getElementById("quicImg");
 function changeImg4() {
   quicImg4.addEventListener(
     "click",
-    mainImg2.setAttribute("src", `assets/products img/product2 close.jpg`)
+    mainImg2.setAttribute("src", `assets/products img/product2 close.webp`)
   );
 }
 function changeImg5() {
@@ -115,7 +115,7 @@ function changeImg5() {
     mainImg2.setAttribute(
       "src",
       `
-            assets/products img/product2 new.jpg`
+            assets/products img/product2 new.webp`
     )
   );
 }
@@ -125,7 +125,7 @@ function changeImg6() {
     mainImg2.setAttribute(
       "src",
       `
-            assets/products img/product 2.jpg`
+            assets/products img/product 2.webp`
     )
   );
 }
@@ -136,7 +136,7 @@ let mainImg3 = document.getElementById("quicImg");
 function changeImg7() {
   quicImg7.addEventListener(
     "click",
-    mainImg3.setAttribute("src", `assets/products img/product3 close.jpg`)
+    mainImg3.setAttribute("src", `assets/products img/product3 close.webp`)
   );
 }
 function changeImg8() {
@@ -145,7 +145,7 @@ function changeImg8() {
     mainImg3.setAttribute(
       "src",
       `
-            assets/products img/product3 angle.jpg`
+            assets/products img/product3 angle.webp`
     )
   );
 }
@@ -155,7 +155,7 @@ function changeImg9() {
     mainImg3.setAttribute(
       "src",
       `
-       assets/products img/product3.jpg`
+       assets/products img/product3.webp`
     )
   );
 }
@@ -166,7 +166,7 @@ let mainImg4 = document.getElementById("quicImg");
 function changeImg10() {
   quicImg10.addEventListener(
     "click",
-    mainImg4.setAttribute("src", `assets/products img/product4 close.jpg`)
+    mainImg4.setAttribute("src", `assets/products img/product4 close.webp`)
   );
 }
 function changeImg11() {
@@ -175,7 +175,7 @@ function changeImg11() {
     mainImg4.setAttribute(
       "src",
       `
-            assets/products img/product4 close2.jpg`
+            assets/products img/product4 close2.webp`
     )
   );
 }
@@ -185,7 +185,7 @@ function changeImg12() {
     mainImg4.setAttribute(
       "src",
       `
-        assets/products img/product 4.jpg`
+        assets/products img/product 4.webp`
     )
   );
 }
@@ -197,7 +197,7 @@ let mainImg5 = document.getElementById("quicImg");
 function changeImg13() {
   quicImg13.addEventListener(
     "click",
-    mainImg5.setAttribute("src", `assets/products img/product5close.jpg`)
+    mainImg5.setAttribute("src", `assets/products img/product5close.webp`)
   );
 }
 function changeImg14() {
@@ -206,7 +206,7 @@ function changeImg14() {
     mainImg5.setAttribute(
       "src",
       `
-            assets/products img/product5 close 2.jpg`
+            assets/products img/product5 close 2.webp`
     )
   );
 }
@@ -216,7 +216,7 @@ function changeImg15() {
     mainImg5.setAttribute(
       "src",
       `
-       assets/products img/product 5.jpg`
+       assets/products img/product 5.webp`
     )
   );
 }
@@ -227,13 +227,13 @@ let mainImg6 = document.getElementById("quicImg");
 function changeImg16() {
   quicImg16.addEventListener(
     "click",
-    mainImg6.setAttribute("src", `assets/products img/product 6 close2.jpg`)
+    mainImg6.setAttribute("src", `assets/products img/product 6 close2.webp`)
   );
 }
 function changeImg17() {
   quicImg17.addEventListener(
     "click",
-    mainImg6.setAttribute("src", `assets/products img/product6 close.jpg`)
+    mainImg6.setAttribute("src", `assets/products img/product6 close.webp`)
   );
 }
 function changeImg18() {
@@ -242,7 +242,7 @@ function changeImg18() {
     mainImg6.setAttribute(
       "src",
       `
-        assets/products img/product 6.jpg`
+        assets/products img/product 6.webp`
     )
   );
 }
@@ -253,7 +253,7 @@ let mainImg7 = document.getElementById("quicImg");
 function changeImg19() {
   quicImg19.addEventListener(
     "click",
-    mainImg7.setAttribute("src", `assets/products img/product7 close2.jpg`)
+    mainImg7.setAttribute("src", `assets/products img/product7 close2.webp`)
   );
 }
 function changeImg20() {
@@ -262,7 +262,7 @@ function changeImg20() {
     mainImg7.setAttribute(
       "src",
       `
-          assets/products img/product 7 close.jpg`
+          assets/products img/product 7 close.webp`
     )
   );
 }
@@ -272,7 +272,7 @@ function changeImg21() {
     mainImg7.setAttribute(
       "src",
       `
-     assets/products img/product7.jpg`
+     assets/products img/product7.webp`
     )
   );
 }
@@ -283,7 +283,7 @@ let mainImg8 = document.getElementById("quicImg");
 function changeImg22() {
   quicImg22.addEventListener(
     "click",
-    mainImg8.setAttribute("src", `assets/products img/product8close.jpg`)
+    mainImg8.setAttribute("src", `assets/products img/product8close.webp`)
   );
 }
 function changeImg23() {
@@ -292,7 +292,7 @@ function changeImg23() {
     mainImg8.setAttribute(
       "src",
       `
-          assets/products img/product8 close 2.jpg`
+          assets/products img/product8 close 2.webp`
     )
   );
 }
@@ -302,7 +302,7 @@ function changeImg24() {
     mainImg8.setAttribute(
       "src",
       `
-    assets/products img/product8.jpg`
+    assets/products img/product8.webp`
     )
   );
 }
@@ -313,7 +313,7 @@ let mainImg9 = document.getElementById("quicImg");
 function changeImg25() {
   quicImg25.addEventListener(
     "click",
-    mainImg9.setAttribute("src", `assets/products img/deal close.jpg`)
+    mainImg9.setAttribute("src", `assets/products img/deal close.webp`)
   );
 }
 function changeImg26() {
@@ -322,7 +322,7 @@ function changeImg26() {
     mainImg9.setAttribute(
       "src",
       `
-          assets/products img/deals close2.jpg`
+          assets/products img/deals close2.webp`
     )
   );
 }
@@ -332,7 +332,7 @@ function changeImg27() {
     mainImg9.setAttribute(
       "src",
       `
-assets/products img/Deals day product.jpg`
+assets/products img/Deals day product.webp`
     )
   );
 }

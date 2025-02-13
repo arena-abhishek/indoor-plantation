@@ -1,6 +1,6 @@
 let endingDAte = "10 January 2025 7:00 PM";
 let timerValue = document.querySelectorAll(".timerValue");
-console.log(endingDAte)
+console.log(endingDAte);
 function Timer() {
   let ending = new Date(endingDAte);
   let now = new Date();
@@ -55,7 +55,7 @@ const hiddenElement = document.querySelectorAll(".hidden-2");
 hiddenElement.forEach((el) => observer.observe(el));
 const observerss = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-    console.log(entry)
+    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
